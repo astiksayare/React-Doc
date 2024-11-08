@@ -11,6 +11,9 @@ import UseEffectHook from "./components/hooks/use-effect-hook/UseEffectHook";
 import UseContextHook from "./components/hooks/context-hook/UseContextHook";
 import UseCustomHook from "./components/custom-hook/UseCustomHook";
 import Navbar from "./components/router/navbar/Navbar";
+import UseRef from "./components/hooks/use-ref-hook/UseRef";
+import UseMemoHook from "./components/hooks/use-memo-hook/UseMemoHook";
+import UseCallbackHook from "./components/hooks/use-callback-hook/UseCallbackHook";
 
 const App = () => {
 
@@ -35,7 +38,16 @@ const App = () => {
   // return <UseCustomHook  />
 
   // 5. Router 
-  return <Navbar />
+  // return <Navbar />
+
+  // 6. Use-Ref-Hook
+  // return <UseRef />
+
+  // 7. Use-Memo-Hook 
+  // return <UseMemoHook />
+  
+  // 8. Use-Callback-Hook 
+  return <UseCallbackHook />
 }
 
 export default App;

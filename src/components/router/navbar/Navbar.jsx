@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div className="pr-12 flex gap-6">
                     {
                         pages.map(page => (
-                            <NavLink to={page.pageLink} key={page.id}>
+                            <NavLink to={page.pageLink} key={page.id} className={({isActive}) => `${isActive? 'text-orange-400': 'text-gray-300'}`}>
                             <h1 onClick={() => setCurrentPageName(page.pageName)}>{page.pageName}</h1>
                             </NavLink>
                         ))
