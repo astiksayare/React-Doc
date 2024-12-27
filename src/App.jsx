@@ -14,6 +14,10 @@ import Navbar from "./components/router/navbar/Navbar";
 import UseRef from "./components/hooks/use-ref-hook/UseRef";
 import UseMemoHook from "./components/hooks/use-memo-hook/UseMemoHook";
 import UseCallbackHook from "./components/hooks/use-callback-hook/UseCallbackHook";
+import React from "react";
+import { UserProvider } from "./pages/UserContext";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 
 const App = () => {
 
@@ -47,7 +51,18 @@ const App = () => {
   // return <UseMemoHook />
   
   // 8. Use-Callback-Hook 
-  return <UseCallbackHook />
+  // return <UseCallbackHook />
+
+  const [data, setData] = React.useState([]);
+
+  return (
+    <UserProvider value={{data, setData}}>
+      <Login />
+      <Profile />
+    </UserProvider>
+  )
+
+
 }
 
 export default App;
