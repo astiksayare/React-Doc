@@ -36,7 +36,7 @@ const App = () => {
   // return <UseEffectHook />
 
   // 3. Create Context and Use Context Hook
-  // return <UseContextHook/>
+  return <UseContextHook/>
 
   // 4. Use-Custom Hook
   // return <UseCustomHook  />
@@ -53,14 +53,14 @@ const App = () => {
   // 8. Use-Callback-Hook 
   // return <UseCallbackHook />
 
-  const [data, setData] = React.useState([]);
+  // const [data, setData] = React.useState([]);
 
-  return (
-    <UserProvider value={{data, setData}}>
-      <Login />
-      <Profile />
-    </UserProvider>
-  )
+  // return (
+  //   <UserProvider value={{data, setData}}>
+  //     <Login />
+  //     <Profile />
+  //   </UserProvider>
+  // )
 
 
 }
