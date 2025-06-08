@@ -1,0 +1,10 @@
+.heading {
+    color: orange;
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: smaller;
+}

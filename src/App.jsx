@@ -18,12 +18,14 @@ import React from "react";
 import { UserProvider } from "./pages/UserContext";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
+import ReactStyles from "./components/styling/ReactStyles";
 
 const App = () => {
 
   // return <Render/>
   // return <JsxCode />
   // return <List />
+  // return <ReactStyles />
   // return <UserProps />
   // return <ConditionalRendering isValid={false}/>
   // return <Event />
@@ -36,7 +38,7 @@ const App = () => {
   // return <UseEffectHook />
 
   // 3. Create Context and Use Context Hook
-  return <UseContextHook/>
+  // return <UseContextHook/>
 
   // 4. Use-Custom Hook
   // return <UseCustomHook  />
@@ -45,7 +47,7 @@ const App = () => {
   // return <Navbar />
 
   // 6. Use-Ref-Hook
-  // return <UseRef />
+  return <UseRef />
 
   // 7. Use-Memo-Hook 
   // return <UseMemoHook />
