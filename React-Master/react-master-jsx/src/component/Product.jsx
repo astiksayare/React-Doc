@@ -1,4 +1,6 @@
 
+import './component.css';
+
 
 const Product = ({productDetails}) => {
 
@@ -13,12 +15,12 @@ const Product = ({productDetails}) => {
                             {
                                 items?.productCategory.map(category => (
                                     <div key={category} style={{display: 'flex', gap: '3rem', justifyContent: "center", alignItems: 'start'}}>
-                                        <div>
+                                        <div className='container'>
                                             <h1>Mobile</h1>
                                             {category.mobile.map(items => (
                                                 <div key={items.mobileId}>
                                                     <ul>
-                                                        {items.mobileName}
+                                                        <h3>{items.mobileName}</h3>
                                                         <li>{items.price}</li>
                                                         <li>{items.color}</li>
                                                         <li>{items.modelNumber}</li>
@@ -28,13 +30,13 @@ const Product = ({productDetails}) => {
                                             
                                         </div>
 
-                                        <div>
+                                        <div className='container'>
                                             <h1>Television</h1>
                                             {
                                                 category.television.map(items => (
                                                     <div key={items.televisionId}>
                                                         <ul>
-                                                            {items.televisionName}
+                                                            <h3>{items.televisionName}</h3>
                                                             <li>{items.price}</li>
                                                         </ul>
                                                     </div>
@@ -42,13 +44,13 @@ const Product = ({productDetails}) => {
                                             }
                                         </div>
 
-                                       <div>
+                                       <div className='container'>
                                             <h2>Laptop</h2>
                                             {
                                                 category.laptop.map(items => (
                                                     <div key={items.laptopId}>
                                                         <ul>
-                                                            {items.laptopName}
+                                                            <h3>{items.laptopName}</h3>
                                                             <li>{items.price}</li>
                                                         </ul>
                                                     </div>

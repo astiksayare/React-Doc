@@ -1,12 +1,14 @@
 
+import './component.css';
 
 
 const Card = ({children, cardName, value}) => {
 
     return (
-        <div>
+        <div className='container'>
             {children}
-            <h1>{value} {cardName}</h1>
+            <h3>{cardName} {value}</h3>
+            <hr width='500'/>
         </div>
     )
 }
