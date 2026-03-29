@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+#para {
+    color: green;
+    font-size: medium;
+}
