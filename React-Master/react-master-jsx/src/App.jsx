@@ -2,6 +2,8 @@
 import * as proDetails from "./api/api";
 import Card from "./component/Card";
 import Product from "./component/Product";
+import * as EventComponent from './events/index';
+
 
 
 const displayFlex = {display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: 'center', gap: '1rem'};
@@ -12,6 +14,10 @@ const App = () => {
 
     return (
         <div style={displayFlex}>
+
+            <EventComponent.ClickEvent />
+            <hr width='500'/>
+            <EventComponent.CopyEvent />
             <section>
                 {
                     numbers.map(number => (
