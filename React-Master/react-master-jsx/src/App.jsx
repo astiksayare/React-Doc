@@ -18,6 +18,8 @@ const App = () => {
             <EventComponent.ClickEvent />
             <hr width='500'/>
             <EventComponent.CopyEvent />
+            <hr width="500"/>
+            {/* <EventComponent.MouseMoveEvent /> */}
             <section>
                 {
                     numbers.map(number => (
