@@ -3,6 +3,7 @@ import * as proDetails from "./api/api";
 import Card from "./component/Card";
 import Product from "./component/Product";
 import * as EventComponent from './events/index';
+import * as Hooks from './hooks/index';
 
 
 
@@ -15,6 +16,9 @@ const App = () => {
     return (
         <div style={displayFlex}>
 
+            <Hooks.Counter />
+
+            <hr width="500" />
             <EventComponent.ClickEvent />
             <hr width='500'/>
             <EventComponent.CopyEvent />

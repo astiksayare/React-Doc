@@ -18,9 +18,5 @@ export const ClickEvent = () => {
 
     const [count, setCount] = React.useState(0);
 
-    return (
-        <>
-        <button style={btnStyle} onClick={() => setCount(count + 1)}>Count: {count}</button>
-        </>
-    )
+    return  <button style={btnStyle} onClick={() => setCount(count + 1)}>Count: {count}</button>
 }
