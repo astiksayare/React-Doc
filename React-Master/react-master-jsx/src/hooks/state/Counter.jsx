@@ -1,17 +1,6 @@
 
 import React from "react"
-const btnStyle = {
-    padding: ".5rem",
-    width: "100px",
-    marginTop: '1rem',
-    background: "#fff",
-    color: "blue",
-    fontWeight: 'bold',
-    cursor: 'pointer',
-    borderRadius: '.5rem',
-    border: '1px solid #000'
-
-}
+import './state.css';
 
 
 export const Counter = () => {
@@ -22,8 +11,8 @@ export const Counter = () => {
         <>
             <h1>{count}</h1>
             <div>
-                <button onClick={() => setCount(count + 1)} style={btnStyle}>Increment</button>
-                <button onClick={() => setCount(count - 1)} style={btnStyle}>Decrement</button>
+                <button onClick={() => setCount(count + 1)} className='btn'>Increment</button>
+                <button onClick={() => setCount(count - 1)} className='btn'>Decrement</button>
             </div>
         </>
     )

@@ -17,7 +17,8 @@ const App = () => {
         <div style={displayFlex}>
 
             <Hooks.Counter />
-
+            <Hooks.ArrayDestructuring />
+            <Hooks.ObjectDestructuring />
             <hr width="500" />
             <EventComponent.ClickEvent />
             <hr width='500'/>
