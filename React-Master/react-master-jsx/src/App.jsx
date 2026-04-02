@@ -12,10 +12,11 @@ const displayFlex = {display: "flex", flexDirection: 'column', justifyContent: "
 const App = () => {
 
     const numbers = [1, 2, 3, 4, 5];
-
+    console.log('App rendered')
     return (
         <div style={displayFlex}>
 
+            <Hooks.InputChange />
             <Hooks.Counter />
             <Hooks.ArrayDestructuring />
             <Hooks.ObjectDestructuring />
