@@ -99,7 +99,7 @@ export const ReactFrom = () => {
                 placeholder='Enter the password...'
                 />
             </section>
-            <button type='submit' className='btn'>Submit</button>
+            <button type='submit' className='btn mt-1'>Submit</button>
         </form>
     )
 }

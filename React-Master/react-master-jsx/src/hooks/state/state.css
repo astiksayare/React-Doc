@@ -1,7 +1,6 @@
 .btn {
     padding: .5rem;
     width: 100px;
-    margin-top: 1rem;
     background: #fff;
     color: blue;
     font-weight: bold;
@@ -21,6 +20,7 @@ form {
 }
 
 .flex {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -28,12 +28,32 @@ form {
     gap: .5rem;
 }
 
-form label {
+.flex-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+label {
     font-weight: bold;
 }
 
-form input {
+input {
     padding: .5rem;
     border-radius: .5rem;
 }
 
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.display_flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}

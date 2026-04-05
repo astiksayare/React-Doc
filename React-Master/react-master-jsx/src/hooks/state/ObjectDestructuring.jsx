@@ -13,7 +13,7 @@ export const ObjectDestructuring = () => {
         <section>
             <h1>Movie Name: {movie.name}</h1>
             <h1>Movie Rating: {movie.rating}</h1>
-            <button className="btn" onClick={updateMovieRating}>Change Rating</button>
+            <button className="btn mt-1" onClick={updateMovieRating}>Change Rating</button>
         </section>
     )
 }

@@ -17,7 +17,7 @@ export const ArrayDestructuring = () => {
                 ))
             }
 
-            <button className="btn" onClick={addFruit}>Add Fruits</button>
+            <button className="btn mt-1" onClick={addFruit}>Add Fruits</button>
        </section>
     )
 }

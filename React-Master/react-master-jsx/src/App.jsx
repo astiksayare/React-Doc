@@ -5,8 +5,6 @@ import Product from "./component/Product";
 import * as EventComponent from './events/index';
 import * as Hooks from './hooks/index';
 
-
-
 const displayFlex = {display: "flex", flexDirection: 'column', justifyContent: "center", alignItems: 'center', gap: '1rem'};
 
 const App = () => {
@@ -15,7 +13,6 @@ const App = () => {
     console.log('App rendered')
     return (
         <div style={displayFlex}>
-
             <Hooks.InputChange />
             <Hooks.Counter />
             <Hooks.ArrayDestructuring />
