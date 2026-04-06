@@ -30,6 +30,6 @@ export const Render = () => {
         <button onClick={() => setCount(count + 1)}>Increment Counter</button>
         <br />
         <br />
-        <input type="text" value={input} onChange={e => setInput(e.target.value)}/>
+        <input type="text" value={input} onChange={e => setInput(e.target.value)} />
     </section>;
 }
