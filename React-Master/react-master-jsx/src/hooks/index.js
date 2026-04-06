@@ -4,11 +4,13 @@ import { ArrayDestructuring } from "./state/ArrayDestructuring";
 import { ObjectDestructuring } from "./state/ObjectDestructuring";
 import { InputChange } from "./state/InputChange";
 import { ReactFrom } from "./state/ReactForm";
+import * as Effect from './effects/index';
 
 export {
     Counter, 
     ArrayDestructuring, 
     ObjectDestructuring,
     InputChange,
-    ReactFrom
+    ReactFrom,
+    Effect
 }

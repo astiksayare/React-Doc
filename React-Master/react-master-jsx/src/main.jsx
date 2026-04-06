@@ -7,10 +7,12 @@ import { Task } from './Task';
 
 
 Root.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        {/* <App /> */}
-        {/* <Hooks.ReactFrom /> */}
-        <Task />
-    </React.StrictMode>
+    // <React.StrictMode>
+    //     {/* <App /> */}
+    //     {/* <Hooks.ReactFrom /> */}
+    //     <Task />
+    // </React.StrictMode>
+
+    <Hooks.Effect.Render />
 );
 
