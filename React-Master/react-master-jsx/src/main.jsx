@@ -8,11 +8,12 @@ import { EffectPortal } from './portal/EffectPortal';
 
 
 Root.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        {/* <App /> */}
-        {/* <Hooks.ReactFrom /> */}
-        {/* <Task /> */}
-        <EffectPortal />
-    </React.StrictMode>
+    // <React.StrictMode>
+    //     {/* <App /> */}
+    //     {/* <Hooks.ReactFrom /> */}
+    //     {/* <Task /> */}
+        
+    // </React.StrictMode>
+    <EffectPortal />
 );
 
