@@ -33,7 +33,7 @@ export const UserRegistration = () => {
                     !isNavigate ? 
                     <form onSubmit={handleSubmit}>
                         <div className="flex-column">
-                            <h1>Context-API User Registration</h1>
+                            <h1>Context API Level 1: <span style={{textDecoration: "underline"}}>Provider/Consumer</span> Context</h1>
                             <div className="display_flex">
                                 <label htmlFor="username">Username: </label>
                                 <input type="text" id="username" name="username" value={user.username} onChange={handleInput}/>

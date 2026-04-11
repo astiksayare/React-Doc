@@ -1,7 +1,5 @@
-import { LandingPage } from "./LandingPage";
-import { UserRegistration } from "./UserRegistration";
-import { MyProfile } from "./MyProfile";
+import * as ProviderConsumerContext from './level-1-provider-consumer';
 
 export {
-    LandingPage, UserRegistration, MyProfile
+    ProviderConsumerContext
 }
