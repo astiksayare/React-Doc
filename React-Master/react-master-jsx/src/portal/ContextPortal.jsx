@@ -1,9 +1,10 @@
 import ReactDom from 'react-dom';
+import { PropsDrilling } from '../hooks/context';
 
 export const ContextPortal = () => {
     return ReactDom.createPortal(
         <section>
-            <h1>This is a Context Portal</h1>
+            <PropsDrilling.Registration />
         </section>, document.getElementById('context-portal')
     )
 }
