@@ -6,7 +6,13 @@ export const ContextPortal = () => {
     return ReactDom.createPortal(
         <section>
             {/* <PropsDrilling.Registration /> */}
-            <ContextApi.ProviderConsumerContext.UserRegistration />
+
+            {/* Level-1 of context api */}
+            {/* <ContextApi.ProviderConsumerContext.UserRegistration /> */}
+
+            {/* Level-2 of context api */}
+            <ContextApi.UseContextHook.UserRegistration />
+
         </section>, document.getElementById('context-portal')
     )
 }

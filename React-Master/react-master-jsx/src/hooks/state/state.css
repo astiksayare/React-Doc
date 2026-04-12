@@ -66,3 +66,13 @@ input {
     width: 100%;
     margin: 1rem 0rem;
 }
+
+.position-top {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.position-relative {
+    position: relative;
+}
