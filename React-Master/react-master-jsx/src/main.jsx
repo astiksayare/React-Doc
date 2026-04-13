@@ -7,14 +7,15 @@ import { Task } from './Task';
 import * as Portal from './portal';
 
 Root.createRoot(document.getElementById('root')).render(
-    // <React.StrictMode>
-    //     {/* <App /> */}
-    //     {/* <Hooks.ReactFrom /> */}
-    //     {/* <Task /> */}
-    // </React.StrictMode>
+    <React.StrictMode>
+        {/* <App /> */}
+        {/* <Hooks.ReactFrom /> */}
+        <Task />
+     </React.StrictMode>
 
     /* Portal */
     // <Portal.EffectPortal />
-    <Portal.ContextPortal />
+    // <Portal.ContextPortal />
+    // <Portal.ReducerPortal />
 );
 

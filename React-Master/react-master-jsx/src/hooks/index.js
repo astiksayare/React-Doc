@@ -5,6 +5,7 @@ import { ObjectDestructuring } from "./state/ObjectDestructuring";
 import { InputChange } from "./state/InputChange";
 import { ReactFrom } from "./state/ReactForm";
 import * as Effect from './effects/index';
+import * as Reducer from './reducer';
 
 export {
     Counter, 
@@ -12,5 +13,6 @@ export {
     ObjectDestructuring,
     InputChange,
     ReactFrom,
-    Effect
+    Effect,
+    Reducer
 }
