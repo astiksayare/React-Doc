@@ -1,3 +1,3 @@
 import { useFetch } from "./useFetch";
-
-export {useFetch}
+import { Product } from "./api";
+export {useFetch, Product}
