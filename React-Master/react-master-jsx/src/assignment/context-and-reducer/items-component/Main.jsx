@@ -1,10 +1,12 @@
-import * as Item from '../items-component';
+import * as Component from '../index';
 
 export const Main = () => {
 
     return (
-        <section>
-            <Item.Cart />
-        </section>
+        <Component.ContextProvider value={{}}>
+            <section>
+                <Component.Items.Cart />
+            </section>
+        </Component.ContextProvider>
     )
 }
