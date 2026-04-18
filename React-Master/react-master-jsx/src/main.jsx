@@ -7,17 +7,18 @@ import { Task } from './Task';
 import * as Portal from './portal';
 
 Root.createRoot(document.getElementById('root')).render(
-    // <React.StrictMode>
-    //     {/* <App /> */}
-    //     {/* <Hooks.ReactFrom /> */}
-    //     <Hooks.Reference.InputField />
-    //     <Task />
-    //  </React.StrictMode>
+    <React.StrictMode>
+        {/* <App /> */}
+        {/* <Hooks.ReactFrom /> */}
+        {/* <Hooks.Reference.InputField /> */}
+        <Hooks.UniqueId.Main />
+        {/* <Task /> */}
+     </React.StrictMode>
 
     /* Portal */
     // <Portal.EffectPortal />
     // <Portal.ContextPortal />
     // <Portal.ReducerPortal />
-    <Portal.CustomPortal />
+    // <Portal.CustomPortal />
 );
 

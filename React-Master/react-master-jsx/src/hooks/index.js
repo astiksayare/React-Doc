@@ -8,6 +8,7 @@ import * as Effect from './effects/index';
 import * as Reducer from './reducer';
 import * as Reference from './reference';
 import * as customHook from './custom-hook';
+import * as UniqueId from './unique-ids';
 
 export {
     Counter, 
@@ -18,5 +19,6 @@ export {
     Effect,
     Reducer,
     Reference,
-    customHook
+    customHook,
+    UniqueId
 }
