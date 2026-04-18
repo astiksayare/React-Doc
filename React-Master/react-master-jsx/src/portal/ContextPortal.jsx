@@ -1,7 +1,4 @@
 import ReactDom from 'react-dom';
-// import { PropsDrilling } from '../hooks/context';
-// import { ContextApi } from '../hooks/context';
-// import * as OptimizedContext from '../hooks/context/context-api/level-3-optimized-context/'
 import * as Context from '../hooks/context';
 
 export const ContextPortal = () => {

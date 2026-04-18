@@ -7,6 +7,7 @@ import { ReactFrom } from "./state/ReactForm";
 import * as Effect from './effects/index';
 import * as Reducer from './reducer';
 import * as Reference from './reference';
+import * as customHook from './custom-hook';
 
 export {
     Counter, 
@@ -16,5 +17,6 @@ export {
     ReactFrom,
     Effect,
     Reducer,
-    Reference
+    Reference,
+    customHook
 }
