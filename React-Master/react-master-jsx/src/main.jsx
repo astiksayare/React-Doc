@@ -2,15 +2,15 @@
 import React from 'react';
 import Root from 'react-dom/client';
 import App from './App';
-import * as Hooks from './hooks/index';
+import * as Hooks from './hooks';
 import { Task } from './Task';
 import * as Portal from './portal';
-import * as Hook from './hooks';
 
 Root.createRoot(document.getElementById('root')).render(
     // <React.StrictMode>
     //     {/* <App /> */}
     //     {/* <Hooks.ReactFrom /> */}
+    //     <Hooks.Reference.InputField />
     //     <Task />
     //  </React.StrictMode>
 
@@ -18,6 +18,6 @@ Root.createRoot(document.getElementById('root')).render(
     // <Portal.EffectPortal />
     // <Portal.ContextPortal />
     // <Portal.ReducerPortal />
-    <Hook.Reference.InputField />
+    <Portal.CustomPortal />
 );
 
