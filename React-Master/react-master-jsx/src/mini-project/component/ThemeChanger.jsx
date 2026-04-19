@@ -3,7 +3,7 @@ import * as MiniProject from '../index';
 
 export const ThemeChanger = () => {
 
-    const { state, dispatch } = MiniProject.Context.useThemeContext();
+    const { state, dispatch, buttonTheme } = MiniProject.Context.useThemeContext();
     const [theme, setTheme] = React.useState(false);
 
     const handleTheme = () => {
@@ -18,7 +18,7 @@ export const ThemeChanger = () => {
     return (
        <nav className='nav-container'>
             <button onClick={handleTheme}  className='mr-1' 
-                style={{background: state.backgroundColor, color: state.textColor, border: `1px solid ${state.textColor}`, fontWeight: 'bold'}}
+             style={buttonTheme}
             >
                 {theme ? 'LIGHT' : 'DARK'}
             </button>
