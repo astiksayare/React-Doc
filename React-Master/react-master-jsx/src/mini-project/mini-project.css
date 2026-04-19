@@ -53,5 +53,34 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: .5rem;
+    resize: none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
 }

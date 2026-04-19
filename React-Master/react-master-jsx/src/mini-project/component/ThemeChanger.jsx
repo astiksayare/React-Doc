@@ -17,7 +17,7 @@ export const ThemeChanger = () => {
 
     return (
        <nav className='nav-container'>
-            <button onClick={handleTheme}  className='mr-1' 
+            <button onClick={handleTheme} className='mr-1' 
              style={buttonTheme}
             >
                 {theme ? 'LIGHT' : 'DARK'}

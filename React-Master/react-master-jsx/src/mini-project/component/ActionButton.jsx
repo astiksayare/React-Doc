@@ -33,7 +33,7 @@ export const ActionButton = () => {
            </div>
             <div style={{border: `1px solid ${buttonTheme.textColor}`, borderRadius: '1rem', padding: '1rem'}} className='container'>
                 {
-                    isActive.addBlog ? <Component.AddBlog /> : <Component.ViewBlogs />
+                    isActive.addBlog ? <Component.AddBlog buttonTheme={activeButton}/> : <Component.ViewBlogs />
                 }
             </div>
         </section>
