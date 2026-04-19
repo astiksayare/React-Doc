@@ -32,9 +32,12 @@ export const ActionButton = () => {
                 <button onClick={handleBlogAction} value={'View Blog'} style={isActive.viewBlog ? activeButton : buttonTheme}>View Blogs</button>
            </div>
             <div style={{border: `1px solid ${buttonTheme.textColor}`, borderRadius: '1rem', padding: '1rem'}} className='container'>
-                {
-                    isActive.addBlog ? <Component.AddBlog buttonTheme={activeButton}/> : <Component.ViewBlogs />
-                }
+                <React.Activity mode={isActive.addBlog ?  "visible" : "hidden"}>
+                    <Component.AddBlog buttonTheme={activeButton}/> 
+                </React.Activity>
+                <React.Activity mode={isActive.viewBlog ?  "visible" : "hidden"}>
+                     <Component.ViewBlogs />
+                </React.Activity>
             </div>
         </section>
     )
