@@ -1,6 +1,8 @@
 
 import React from "react";
-import * as Component from '../../../component';
+// import * as Component from '../../../component';
+import * as Component from '@/app/component';
+
 
 
 export const StateFrom  = () => {
