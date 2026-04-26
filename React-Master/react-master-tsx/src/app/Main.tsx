@@ -1,9 +1,11 @@
+import * as App from './index';
 
 export const Main = () => {
 
     return (
         <>
-        <h1>Hello World...</h1>
+            {/* <App.Component.Hook.State.Counter /> */}
+            <App.Component.Hook.State.StateFrom />
         </>
     )
 }
