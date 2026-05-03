@@ -1,16 +1,13 @@
 
-import * as Component from "@/app/component";
-import type React from "react";
+import React from 'react';
 
-export const Counter: React.FC= () => {
-
-    const {count, setCount} : Component.Type.CounterProps = Component.Hook.Context.counterValue();
+export const Counter = ({state, dispatch}: {state: {count: number}, dispatch: React.Dispatch<{type: string}>}) => {
 
     return (
         <section>
-            <h1>Count: {count}</h1>
-            <button onClick={() => setCount(count + 1)}>INC</button>
-            <button onClick={() => setCount(count - 1)}>DEC</button>
+            <h1>Count: {state.count}</h1>
+            <button onClick={() => dispatch({type: 'INC'})}>INCREMENT</button>
+            <button onClick={() => dispatch({type: 'DEC'})}>DECREMENT</button>
         </section>
     )
 }
