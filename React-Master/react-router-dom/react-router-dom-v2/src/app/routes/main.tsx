@@ -30,7 +30,8 @@ export const Main = () => {
                     children: [
                         {
                             path: 'count',
-                            element: <Pages.Counter.View.Content />
+                            // element: <Pages.Counter.View.Content />
+                            element: <Router.Navigate to={"/"} />
                         }
                     ]
                 },
